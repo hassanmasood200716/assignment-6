@@ -22,7 +22,7 @@ const EighthMain = () => {
                 <div className="p-4">
                     <div className="flex gap-2">
                         <span>
-                            <img className="w-8" src="/images/logo2.png" alt="" />
+                            <img className="w-8" src="/images/logo2.png" alt="image" />
                         </span>
                         <span className="font-bold text-3xl">Ddsgnr</span>
                     </div>

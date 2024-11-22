@@ -11,7 +11,7 @@ const Cardss = (props: CardssProps) => {
     <div className='overflow-hidden w-full sm:w-1/3 py-6 flex items-center justify-center'>
       <div>
         <div className='flex items-center justify-center'>
-          <img src={props.src} alt="" className='h-[80px] w-[80px] object-fill' />
+          <img src={props.src} alt="image" className='h-[80px] w-[80px] object-fill' />
         </div>
         <div className='flex flex-col items-center justify-center'>
           <h1 className='font-bold px-4 py-2 text-xl' >{props.title}</h1>

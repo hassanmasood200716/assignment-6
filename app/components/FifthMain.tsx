@@ -11,7 +11,7 @@ const Cards = (props: CardsProps) => {
     return (
         <div className='overflow-hidden w-[90%] sm:w-1/4 h-[60vh] '>
             <div className='bg-[#F7F7F7] rounded-lg'>
-            <img src={props.src} alt="" className='h-[32vh] sm:w-[25vw] object-fill' />
+            <img src={props.src} alt="image" className='h-[32vh] sm:w-[25vw] object-fill' />
             <div className='flex flex-col items-start justify-start'>
                 <h1 className='font-bold px-4 py-2 text-2xl' >{props.title}</h1>
                 <p className='px-4 py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros</p>

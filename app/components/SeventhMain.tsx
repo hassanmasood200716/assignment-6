@@ -9,10 +9,10 @@ interface CardzProps {
 const Cardz = (props: CardzProps) => {
     return (
         <div className='border-2 border-black h-[40vh] p-5'>
-            <div className='flex justify-start items-center py-2'> ⭐⭐⭐⭐⭐ </div>
+            <div className='flex justify-start items-center py-2'>⭐⭐⭐⭐⭐</div>
             <div>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare
                 </p>
             </div>
             <div className='flex justify-start py-4 '>

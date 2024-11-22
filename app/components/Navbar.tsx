@@ -15,12 +15,12 @@ const Navbar = () => {
       <div className="bg-gray-100 h-[10vh] flex justify-around sm:justify-between items-center border border-black ">
         <div className="flex items-center justify-center sm:w-1/6">
           <span>
-            <img className="w-8" src="/images/logo2.png" />
+            <img className="w-8" src="/images/logo2.png" alt="image"/>
           </span>
           <span className="font-bold text-3xl">Ddsgnr</span>
         </div>
         <div className="block sm:hidden ">
-          <span><img src="/images/alternate.png " className="w-10"></img></span>
+          <span><img src="/images/alternate.png " alt="image" className="w-10"></img></span>
         </div>
         <div className="hidden sm:flex items-center justify-center gap-8 w-4/6  text-lg  bg-gray-50">
           <div className="hover:font-bold p-3">Home</div>
