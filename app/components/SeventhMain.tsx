@@ -27,8 +27,14 @@ const Cardz = (props: CardzProps) => {
         </div>
     )
 }
+interface CardzProps {
+    src: string;
+    title: string;
+    post: string;
+  }
+  
 
-const SeventhMain = () => {
+const SeventhMain = (props: CardzProps) => {
     return (
         <div className='h-[80vh] bg-[#F7F7F7]'>
             <div className='flex items-center flex-col justify-center'>

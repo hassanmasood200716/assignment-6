@@ -1,7 +1,13 @@
 import React from 'react'
 
+interface CardProps {
+    title: string;
+    description: string;
+    src: string;
+  }
+  
 
-const Card = (props:any) => {
+const Card = (props: CardProps) => {
     return (
       <div className='card border-2 rounded-lg bg-[#F7F7F7] flex sm:w-1/4 w-3/4  items-center justify-around' style={{overflow: "hidden" }}>
           <img src={props.src} alt="image" className='w-1/4 h-auto  rounded-xl '/>

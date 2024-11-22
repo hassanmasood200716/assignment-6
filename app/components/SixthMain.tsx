@@ -1,6 +1,12 @@
 import React from 'react'
 
-const Cardss = (props: any) => {
+interface CardssProps {
+  src: string;
+  title: string;
+  post: string;
+}
+
+const Cardss = (props: CardssProps) => {
   return (
     <div className='overflow-hidden w-full sm:w-1/3 py-6 flex items-center justify-center'>
       <div>

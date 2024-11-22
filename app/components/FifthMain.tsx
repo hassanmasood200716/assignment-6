@@ -1,6 +1,13 @@
 import React from 'react'
 
-const Cards = (props: any) => {
+interface CardsProps {
+    src: string;
+    title: string;
+    description?: string;
+    price?: number;
+  }
+
+const Cards = (props: CardsProps) => {
     return (
         <div className='overflow-hidden w-[90%] sm:w-1/4 h-[60vh] '>
             <div className='bg-[#F7F7F7] rounded-lg'>
