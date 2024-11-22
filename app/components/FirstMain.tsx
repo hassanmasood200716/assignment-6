@@ -4,7 +4,7 @@ const FirstMain = () => {
   return (
     <div className='sm:flex items-center justify-center '>
       <div className='sm:m-auto my-10 w-full sm:w-1/2'>
-        <div className='sm:w-[30vw] w-[99vw]  mx-auto'>
+        <div className='sm:w-[50vw] lg:w-[30vw] w-[99vw] md:mx-auto mx-1'>
           <h1 className='sm:text-5xl text-4xl px-10 py-2 sm:px-10 sm:py-5 font-bold'>Learn new skills online with ease</h1>
           <p className='sm:text-lg text-lg px-10 py-2 sm:py-5 m-1 sm:m-auto'>Discover a wide range of courses covering a variety of subjects, taught by expert instructors</p>
           <div className='flex px-10 sm:px-10 py-5 gap-5'>

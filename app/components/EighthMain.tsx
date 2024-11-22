@@ -56,14 +56,14 @@ const EighthMain = () => {
             <div className="flex items-center justify-center">
                 <div className="border w-[80vw] border-black self-center"></div>
             </div>
-            <div className="flex flex-col sm:flex-row items-center justify-around py-11">
+            <div className="flex flex-col sm:flex-row items-center justify-around py-10">
                 <div className="flex flex-col sm:flex-row gap-4 text-center">
                     <div>
                     <span >
                         2023 Ddsgnr. All right reserved.
                     </span>
                     </div>
-                    <div className="flex underline underline-offset-4 gap-4" >
+                    <div className="flex underline underline-offset-4 gap-2 md:gap-4" >
                     <span>
                          Privacy Policy
                     </span>
@@ -75,7 +75,7 @@ const EighthMain = () => {
                     </span>
                     </div>
                 </div>
-                <div className="flex flex-row justify-center items-center py-5 w-6 gap-5">
+                <div className="flex flex-row justify-center items-center py-5 w-6 md:gap-5 gap-3">
                     <img src="/images/facebook.png" alt="Facebook" />
                     <img src="/images/instagram.png" alt="instagram" />
                     <img src="/images/twitwer.png" alt="twitter" />
