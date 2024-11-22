@@ -2,19 +2,19 @@ import React from 'react'
 
 const Cardss = (props: any) => {
   return (
-    <div className='card overflow-hidden w-full sm:w-1/3 py-6 flex items-center justify-center'>
+    <div className='overflow-hidden w-full sm:w-1/3 py-6 flex items-center justify-center'>
       <div>
         <div className='flex items-center justify-center'>
-          <img src={props.src} alt="" className='h-[80px] w-[80px] object-fill flex justify-center items-center' />
+          <img src={props.src} alt="" className='h-[80px] w-[80px] object-fill' />
         </div>
         <div className='flex flex-col items-center justify-center'>
           <h1 className='font-bold px-4 py-2 text-xl' >{props.title}</h1>
           <h1 className=' px-4  text-md' >{props.post}</h1>
         </div>
         <div className='flex justify-center items-center p-3 gap-2'>
-          <span><img className='w-[20px]' src='/images/facebook.png' /></span>
-          <span><img className='w-[20px]' src='/images/instagram.png' /></span>
-          <span><img className='w-[20px]' src='/images/linked.png' /></span>
+          <span><img className='w-[20px]' src='/images/facebook.png' alt='image'/></span>
+          <span><img className='w-[20px]' src='/images/instagram.png' alt='image'/></span>
+          <span><img className='w-[20px]' src='/images/linked.png' alt='image'/></span>
         </div>
       </div>
     </div>

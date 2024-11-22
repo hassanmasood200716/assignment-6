@@ -1,17 +1,23 @@
 import React from 'react'
 
-const Cardz = (props: any) => {
+interface CardzProps {
+    src: string;
+    title: string;
+    post: string;
+  }
+
+const Cardz = (props: CardzProps) => {
     return (
-        <div className='border-2 border-black h-[40vh] p-5 bg-red'>
+        <div className='border-2 border-black h-[40vh] p-5'>
             <div className='flex justify-start items-center py-2'> ⭐⭐⭐⭐⭐ </div>
             <div>
                 <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
                 </p>
             </div>
-            <div className='flex justify-start py-4 items-start'>
+            <div className='flex justify-start py-4 '>
                 <div>
-                    <img className='rounded-full m-1 w-12' src={props.src} alt="" />
+                    <img className='rounded-full m-1 w-12' src={props.src} alt="image" />
                 </div>
                 <div className='flex flex-col m-1 justify-start items-start'>
                     <span className='font-bold'>{props.post}</span>

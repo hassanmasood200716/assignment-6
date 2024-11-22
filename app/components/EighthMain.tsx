@@ -18,16 +18,16 @@ const EighthMain = () => {
                     </button>
                 </div>
             </div>
-            <div className="footer grid grid-cols-1 sm:grid-cols-4 gap-4 p-6 text-center place-items-center">
-                <div className="footeritems p-4">
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 p-6 text-center place-items-center">
+                <div className="p-4">
                     <div className="flex gap-2">
                         <span>
-                            <img className="w-8" src="/images/logo2.png" />
+                            <img className="w-8" src="/images/logo2.png" alt="" />
                         </span>
                         <span className="font-bold text-3xl">Ddsgnr</span>
                     </div>
                 </div>
-                <div className="footeritems p-4">
+                <div className="p-4">
                     <p className="font-semibold mb-2">Courses</p>
                     <p>Business</p>
                     <p>Development</p>
@@ -35,7 +35,7 @@ const EighthMain = () => {
                     <p>Design</p>
                     <p>Programming</p>
                 </div>
-                <div className="footeritems p-4">
+                <div className="p-4">
                     <p className="font-semibold mb-2">Resources</p>
                     <p>Career</p>
                     <p>Resume</p>
@@ -43,7 +43,7 @@ const EighthMain = () => {
                     <p>Interview Preparation</p>
                     <p>Jobs</p>
                 </div>
-                <div className="footeritems sm:p-4">
+                <div className="p-4">
                     <p className="font-semibold mb-2">About Us</p>
                     <p>Contact</p>
                     <p>Help/Support</p>

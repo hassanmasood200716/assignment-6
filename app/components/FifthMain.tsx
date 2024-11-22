@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = (props: any) => {
     return (
-        <div className='card overflow-hidden w-[90%] sm:w-1/4 h-[60vh] '>
+        <div className='overflow-hidden w-[90%] sm:w-1/4 h-[60vh] '>
             <div className='bg-[#F7F7F7] rounded-lg'>
             <img src={props.src} alt="" className='h-[32vh] sm:w-[25vw] object-fill' />
             <div className='flex flex-col items-start justify-start'>

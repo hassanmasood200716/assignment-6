@@ -18,7 +18,7 @@ const FirstMain = () => {
         </div>
       </div>
       <div className='flex justify-end w-full sm:w-1/2'>
-        <img className='w-[100vw] h-[50vh] sm:h-[85vh] object-contain' src="/images/photo.png" alt="photo" />
+        <img className='w-full h-auto sm:h-[85vh] object-contain' src="/images/photo.png" alt="photo" />
       </div>
     </div>
   )

@@ -4,8 +4,8 @@ import React from 'react'
 const Card = (props:any) => {
     return (
       <div className='card border-2 rounded-lg bg-[#F7F7F7] flex sm:w-1/4 w-3/4  items-center justify-around' style={{overflow: "hidden" }}>
-          <img src={props.src} alt="" className='w-1/4 h-[100px]  rounded-xl overflow-hidden'/>
-          <div className='3/4'>
+          <img src={props.src} alt="image" className='w-1/4 h-auto  rounded-xl '/>
+          <div>
           <h1 className='font-bold text-xl' >{props.title}</h1>
           <p>{props.description}</p>
         </div>

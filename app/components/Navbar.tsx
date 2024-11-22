@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const Navbar = () => {
@@ -6,11 +5,11 @@ const Navbar = () => {
     <div className="" >
       <div className=" hidden sm:flex items-center justify-around h-[5vh] border border-black">
         <div>Phone Number: 956 742 455 678 | Email:info@ddsgnr.com</div>
-        <div className="flex items-center w-6 gap-5">
-          <img src="/images/facebook.png" alt="Facebook" />
-          <img src="/images/instagram.png" alt="instagram" />
-          <img src="/images/twitwer.png" alt="twitter" />
-          <img src="/images/linked.png" alt="linkedn" />
+        <div className="flex items-center gap-5">
+          <img className="w-8" src="/images/facebook.png" alt="Facebook" />
+          <img className="w-8" src="/images/instagram.png" alt="instagram" />
+          <img className="w-8" src="/images/twitwer.png" alt="twitter" />
+          <img className="w-8" src="/images/linked.png" alt="linkedn" />
         </div>
       </div>
       <div className="bg-gray-100 h-[10vh] flex justify-around sm:justify-between items-center border border-black ">
